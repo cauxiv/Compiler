@@ -1,0 +1,18 @@
+int main ( void ) {
+  char if123='1';
+  string my_string="abcdefg";
+  int a = 1234
+  int 0a = a- -1;
+  char ab0cde3_fac = a+12345b;
+  string abc0 = 10a
+  string 0000 = 0001a
+
+  if(a>=1){
+    print(a);
+  }
+
+  return -0;
+  print("abcgood");
+  }
+
+int func(int a){return 0;}
