@@ -1,3 +1,13 @@
+int abc(void){
+  -0
+  0abc0
+  123if
+  123if0
+  ''
+  a-1
+  print("(abcgood)");
+}
+
 int main ( void ) {
   char if123='1';
   string my_string="abcdefg";
