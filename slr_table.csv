@@ -140,7 +140,7 @@
 41,STMT,48
 42,rparen,r20
 43,vtype,s55
-44,assign,r12
+44,semi,r12
 44,addsub,r12
 44,multdiv,s36
 45,assign,r14

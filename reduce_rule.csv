@@ -16,7 +16,7 @@
 16,3,EXPRAA,lparen,EXPRAA,rparen
 17,1,EXPRAA,id
 18,1,EXPRAA,num
-19,9,vtype,id,lparen,ARG,rparen,lbrace,BLOCK,RETURN,rbrace
+19,9,FDECL,vtype,id,lparen,ARG,rparen,lbrace,BLOCK,RETURN,rbrace
 20,3,ARG,vtype,id,MOREARGS
 21,0,ARG,
 22,4,MOREARGS,comma,vtype,id,MOREARGS
