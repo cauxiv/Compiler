@@ -1,32 +1,17 @@
-<VTYPE, int>
-<ID, abc>
-<LPAREN, (>
-<ID, void>
-<RPAREN, )>
-<LBRACE, {>
-<OPERATOR, ->
-<INTEGER, 0>
-<INVALID CHAR, 'abcce'>
-<ID, a>
-<INTEGER, 0>
-<INTEGER, 0>
-<INTEGER, 0>
-<INTEGER, 0>
-<INTEGER, 0>
-<INTEGER, 0>
-<INTEGER, 0>
-<ID, abc0>
-<INTEGER, 123>
-<KEYWORD, if>
-<INTEGER, 123>
-<ID, if0>
-<CHAR, ''>
-<ID, a>
-<OPERATOR, ->
-<INTEGER, 1>
-<ID, print>
-<LPAREN, (>
-<STRING, "(abcgood)">
-<RPAREN, )>
-<SEMI, ;>
-<RBRACE, }>
+vtype,int
+id,foo
+lparen,(
+vtype,int
+id,a
+rparen,)
+lbrace,{
+id,a
+assign,=
+id,a
+addsub,-
+num,3
+semi,;
+return,return
+id,a
+semi,;
+rbrace,}
