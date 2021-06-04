@@ -1,0 +1,4 @@
+int abc(void){
+ k = 1;
+ return 0;
+}

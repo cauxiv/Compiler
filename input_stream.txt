@@ -1,6 +1,5 @@
 int abc(void){
   -0
-  'abcce'a
   000000
   0abc0
   123if
