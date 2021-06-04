@@ -1,7 +1,7 @@
 1,2,CODE,VDECL,CODE
 2,2,CODE,FDECL,CODE
 3,2,CODE,CDECL,CODE
-4,0,CODE,''
+4,0,CODE,
 5,3,VDECL,vtype,id,semi
 6,3,VDECL,vtype,ASSIGN,semi
 7,3,ASSIGN,id,assign,RHS
@@ -18,11 +18,11 @@
 18,1,EXPRAA,num
 19,9,vtype,id,lparen,ARG,rparen,lbrace,BLOCK,RETURN,rbrace
 20,3,ARG,vtype,id,MOREARGS
-21,0,ARG,''
+21,0,ARG,
 22,4,MOREARGS,comma,vtype,id,MOREARGS
-23,0,MOREARGS,''
+23,0,MOREARGS,
 24,2,BLOCK,STMT,BLOCK
-25,0,BLOCK,''
+25,0,BLOCK,
 26,1,STMT,VDECL
 27,2,STMT,ASSIGN,semi
 28,8,STMT,if,lparen,COND,rparen,lbrace,BLOCK,rbrace,ELSE
@@ -31,9 +31,9 @@
 31,1,COND,CONDA
 32,1,CONDA,boolstr
 33,4,ELSE,else,lbrace,BLOCK,rbrace
-34,0,ELSE,''
+34,0,ELSE,
 35,3,RETURN,return,RHS,semi
 36,5,CDECL,class,id,lbrace,ODECL,rbrace
 37,2,ODECL,VDECL,ODECL
 38,2,ODECL,FDECL,ODECL
-39,0,ODECL,''
+39,0,ODECL,
