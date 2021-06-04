@@ -1,32 +1,32 @@
-<vtype, int>
-<id, abc>
-<lparen, (>
-<id, void>
-<rparen, )>
-<lbrace, {>
-<addsub, ->
-<num, 0>
-<invalid char, 'abcce'>
-<id, a>
-<num, 0>
-<num, 0>
-<num, 0>
-<num, 0>
-<num, 0>
-<num, 0>
-<num, 0>
-<id, abc0>
-<num, 123>
-<if, if>
-<num, 123>
-<id, if0>
-<character, ''>
-<id, a>
-<addsub, ->
-<num, 1>
-<id, print>
-<lparen, (>
-<literal, "(abcgood)">
-<rparen, )>
-<semi, ;>
-<rbrace, }>
+vtype,int
+id,abc
+lparen,(
+id,void
+rparen,)
+lbrace,{
+addsub,-
+num,0
+invalid char,'abcce'
+id,a
+num,0
+num,0
+num,0
+num,0
+num,0
+num,0
+num,0
+id,abc0
+num,123
+if,if
+num,123
+id,if0
+character,''
+id,a
+addsub,-
+num,1
+id,print
+lparen,(
+literal,"(abcgood)"
+rparen,)
+semi,;
+rbrace,}

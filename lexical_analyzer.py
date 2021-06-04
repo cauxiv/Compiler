@@ -257,13 +257,13 @@ class LexicalAnalyzer:
 
     def PrintTokenTable(self):
         for token in self.tokenList:
-            print("<{}, {}>".format(
+            print("{},{}".format(
                 TokenTable[token.getID()], token.getLexeme()))
 
     def SaveTokens(self, fileName):
         with open(fileName, "w") as f:
             for token in self.tokenList:
-                data = "<{}, {}>\n".format(
+                data = "{},{}\n".format(
                     self.tokenTable[token.getID()], token.getLexeme())
                 f.write(data)
 
