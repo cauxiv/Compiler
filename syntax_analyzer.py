@@ -36,21 +36,29 @@ class Analyzer:
     self.stack_top = self.trace_symbol_stack[-1]
     self.input_top = self.trace_input[0]
     self.action_state = self.read_slr_table(self.stack_top, self.input_top)
+    print(self.stack_top, self.input_top)
     print(self.action_state)
 
-    if(self.action_state[0] == 's'):
-      #shift and goto
+    if(self.action_state == ''):
+      #Error
+      print("E")
       pass
 
     elif(self.action_state[0] == 'r'):
       #reduce
+      print("R")
       pass
     
     elif(self.action_state[0] == 'a'):
       #accept
+      print("A")
       pass
-    elif(self.action_state[0] == ''):
+    elif(self.action_state[0] == 's'):
       #error
+      self.trace_symbol_stack.append(self.input_top)
+      self.trace_symbol_stack.append(self.action_state[1])
+      self.trace_input = self.trace_input[1:]
+      self.parse()
       pass
     else:
       #goto number
