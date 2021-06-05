@@ -1,0 +1,47 @@
+---------------------------------------
+<This is Syntax Analyzer>
+['0'] ['vtype', 'id', 'lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s5
+['0', 'vtype', '5'] ['id', 'lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s10
+['0', 'vtype', '5', 'id', '10'] ['lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s14
+['0', 'vtype', '5', 'id', '10', 'lparen', '14'] ['rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+r21
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18'] ['rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s33
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33'] ['lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s41
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41'] ['id', 'assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s54
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54'] ['assign', 'num', 'semi', 'return', 'num', 'rbrace', '$']
+s15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15'] ['num', 'semi', 'return', 'num', 'rbrace', '$']
+s29
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'num', '29'] ['semi', 'return', 'num', 'rbrace', '$']
+r18
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPRAA', '26'] ['semi', 'return', 'num', 'rbrace', '$']
+r15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPRA', '25'] ['semi', 'return', 'num', 'rbrace', '$']
+r13
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPR', '21'] ['semi', 'return', 'num', 'rbrace', '$']
+r8
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'RHS', '20'] ['semi', 'return', 'num', 'rbrace', '$']
+r7
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'ASSIGN', '50'] ['semi', 'return', 'num', 'rbrace', '$']
+s59
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'ASSIGN', '50', 'semi', '59'] ['return', 'num', 'rbrace', '$']
+r27
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'STMT', '48'] ['return', 'num', 'rbrace', '$']
+r25
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'STMT', '48', 'BLOCK', '58'] ['return', 'num', 'rbrace', '$']
+r24
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47'] ['return', 'num', 'rbrace', '$']
+s57
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57'] ['num', 'rbrace', '$']
+s29
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'num', '29'] ['rbrace', '$']
+
+Error has been occured
+At the 21th Step,
+The Problem tocken is about }

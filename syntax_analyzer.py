@@ -1,7 +1,9 @@
+#!/bin/bash
 import sys
 
 class Analyzer:
   def __init__(self):
+    self.step_num = 1
     self.trace_symbol_stack = ['0']
     self.trace_input = []
     self.trace_input_code = []
@@ -42,8 +44,10 @@ class Analyzer:
 
     if(self.action_state == ''):
       #Error
-      print("E")
-      pass
+      print("Error has been occured")
+      print("At the {0}th Step,".format(self.step_num))
+      print("The Problem tocken is about {0}".format(self.trace_input_code[0]))
+      return
 
     elif(self.action_state[0] == 'r'):
       #reduce
@@ -61,20 +65,23 @@ class Analyzer:
       goto_num = self.read_slr_table(last_num,top)
       self.trace_symbol_stack.append(goto_num)
       #do parsing
+      self.step_num += 1
       self.parse()
       
     
     elif(self.action_state[0] == 'a'):
       #accept
-      print("Accept 되었습니다.")
-      pass
+      print("SUCCESS!! IT HAS BEEN ACCEPTED")
+      return
     elif(self.action_state[0] == 's'):
       #state_to_to_num
       self.trace_symbol_stack.append(self.input_top)
       self.last_state_num = self.action_state[1:]
       self.trace_symbol_stack.append(self.last_state_num)
       self.trace_input = self.trace_input[1:]
+      self.trace_input_code = self.trace_input_code[1:]
       #do parsing
+      self.step_num +=1
       self.parse()
     
 
@@ -97,19 +104,21 @@ class Analyzer:
 
 def syntax_analyzer():
     
-  '''
   if len(sys.argv) != 2:
     print("Insufficient arguments")
     sys.exit()
 
   file_name = sys.argv[1]
   
-  '''
+
   analyzer = Analyzer()
+  #load slr_table.csv
   analyzer.prepare_slr_table()
+  #load reduce_rule.csv
   analyzer.prepare_reduce_rule()
 
-  with open('symbol_table.txt', 'r') as f:
+  #파일 불러와서 각각 의미에 맞는 list로 파싱함.
+  with open(file_name, 'r') as f:
     parse_list = f.read().splitlines()
       
     for x in parse_list:
@@ -118,13 +127,14 @@ def syntax_analyzer():
       analyzer.trace_input_code.append(code)
 
     analyzer.trace_input.append('$')
-    analyzer.trace_input_code.append('$')\
+    analyzer.trace_input_code.append('$')
   
   #praser start
   analyzer.parse()
 
 
-
 if __name__ == "__main__":
     #program start
+    print("---------------------------------------")
+    print("<This is Syntax Analyzer>")
     syntax_analyzer()

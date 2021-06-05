@@ -1,4 +1,7 @@
-int foo(int a){
-	a = a-3;
-	return a;
+int abc(){
+ string a= "aaa"
+ double b = 1.0;
+ int c = 1 + 2;
+ int d = 2 * 3;
+ return 0;
 }

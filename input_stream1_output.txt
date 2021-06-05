@@ -1,0 +1,65 @@
+---------------------------------------
+<This is Syntax Analyzer>
+['0'] ['vtype', 'id', 'lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s5
+['0', 'vtype', '5'] ['id', 'lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s10
+['0', 'vtype', '5', 'id', '10'] ['lparen', 'rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s14
+['0', 'vtype', '5', 'id', '10', 'lparen', '14'] ['rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+r21
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18'] ['rparen', 'lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s33
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33'] ['lbrace', 'id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s41
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41'] ['id', 'assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s54
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54'] ['assign', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15'] ['num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s29
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'num', '29'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+r18
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPRAA', '26'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+r15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPRA', '25'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+r13
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'EXPR', '21'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+r8
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'id', '54', 'assign', '15', 'RHS', '20'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+r7
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'ASSIGN', '50'] ['semi', 'return', 'num', 'semi', 'rbrace', '$']
+s59
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'ASSIGN', '50', 'semi', '59'] ['return', 'num', 'semi', 'rbrace', '$']
+r27
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'STMT', '48'] ['return', 'num', 'semi', 'rbrace', '$']
+r25
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'STMT', '48', 'BLOCK', '58'] ['return', 'num', 'semi', 'rbrace', '$']
+r24
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47'] ['return', 'num', 'semi', 'rbrace', '$']
+s57
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57'] ['num', 'semi', 'rbrace', '$']
+s29
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'num', '29'] ['semi', 'rbrace', '$']
+r18
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'EXPRAA', '26'] ['semi', 'rbrace', '$']
+r15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'EXPRA', '25'] ['semi', 'rbrace', '$']
+r13
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'EXPR', '21'] ['semi', 'rbrace', '$']
+r8
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'RHS', '65'] ['semi', 'rbrace', '$']
+s71
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'return', '57', 'RHS', '65', 'semi', '71'] ['rbrace', '$']
+r35
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'RETURN', '56'] ['rbrace', '$']
+s64
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'BLOCK', '47', 'RETURN', '56', 'rbrace', '64'] ['$']
+r19
+['0', 'FDECL', '3'] ['$']
+r4
+['0', 'FDECL', '3', 'CODE', '8'] ['$']
+r2
+['0', 'CODE', '1'] ['$']
+acc
+SUCCESS!! IT HAS BEEN ACCEPTED

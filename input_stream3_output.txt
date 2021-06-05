@@ -1,0 +1,27 @@
+---------------------------------------
+<This is Syntax Analyzer>
+['0'] ['vtype', 'id', 'lparen', 'rparen', 'lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s5
+['0', 'vtype', '5'] ['id', 'lparen', 'rparen', 'lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s10
+['0', 'vtype', '5', 'id', '10'] ['lparen', 'rparen', 'lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s14
+['0', 'vtype', '5', 'id', '10', 'lparen', '14'] ['rparen', 'lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+r21
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18'] ['rparen', 'lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s33
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33'] ['lbrace', 'vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s41
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41'] ['vtype', 'id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s53
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'vtype', '53'] ['id', 'assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s62
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'vtype', '53', 'id', '62'] ['assign', 'literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s15
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'vtype', '53', 'id', '62', 'assign', '15'] ['literal', 'id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+s22
+['0', 'vtype', '5', 'id', '10', 'lparen', '14', 'ARG', '18', 'rparen', '33', 'lbrace', '41', 'vtype', '53', 'id', '62', 'assign', '15', 'literal', '22'] ['id', 'id', 'assign', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'addsub', 'num', 'semi', 'vtype', 'id', 'assign', 'num', 'multdiv', 'num', 'semi', 'return', 'num', 'semi', 'rbrace', '$']
+
+Error has been occured
+At the 11th Step,
+The Problem tocken is about double
